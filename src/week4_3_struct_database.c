@@ -36,7 +36,7 @@ int main() {
     printf("\nID     Name        Grade\n");
     printf("----------------------------\n");
 
-    // Print each student's information in a formatted table
+    // Print each stu` dent's information in a formatted table
     for (int i = 0; i < n; i++) {
         printf("%-6d %-12s %.1f\n", students[i].id, students[i].name, students[i].grade);
     }
